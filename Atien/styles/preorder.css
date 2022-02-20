@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+/* General */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li, a, button, ul{
+    font-family: "Nosifer";
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+}
+
+body{
+   position: relative;
+   
+}
+main{
+    padding-bottom: 300px;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
+    position: absolute;
+    width: 100%;
+}
+h2{
+    color: #a90000;
+    font-family: "Nosifer";
+    
+    font-size: 30px;
+    
+}
+
+/* MAIN */
+.image_main{
+    height: 900px;
+  
+}
+
+.header__logo{
+    cursor: pointer;
+    margin-right: auto;
+    max-width: 20%;
+    max-height: 20%;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display:inline-block;
+    padding: 0px 20px;
+
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color: #a90000;
+}
+
+
+/* SECTION PRE ORDER */
+
+.section__preorder{
+    border: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    
+}
+
+.section__preorder-link{
+    display: inline-block;
+}
+
+.section_preorder-list li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 10px;
+}
+.section__preorder-h2{
+    float: left;
+}
+.section__preorder li a{
+    transition: all 0.3s ease 0s;
+}
+.section__preorder li a:hover{
+    color: #a90000;
+}
+
+/* SECTION ABOUT */
+
+
+.section__about{
+    border: solid;
+    margin: 10px 10px 10px 10px;
+    padding: 50px 50px 50px 50px;
+    
+}
+.section__about-img{
+    max-width: 10%;
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.section__about-h2{
+    padding: 10px 10px 10px 10px;
+}
+.section__about-p{
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+    text-align: right;
+    bottom: 0;
+    width: 100%;
+   
+    
+}
+
+.footer__logo{
+    max-width: 10%;
+    margin-top: 20px;
+    float: left;
+    
+}
+
+.footer__social{
+    
+    margin-bottom: 10px;
+}
+
+.footer__social-item{
+
+display: inline-block;
+padding: 10px;
+}
+
+.footer__social-link{
+
+font-size: 20px;
+}
+
+.footer__links{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footer__links li{
+    display:inline-block;
+    padding: 0px 20px;
+
+}
+
+.footer__social li a,
+.footer__links li a{
+    transition: all 0.3s ease 0s;
+}
+.footer__social li a:hover,
+.footer__links li a:hover{
+    color: #a90000;
+}
