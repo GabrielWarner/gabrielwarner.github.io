@@ -40,11 +40,8 @@ h2{
     
 }
 
-/* MAIN */
-.image_main{
-    height: 900px;
-  
-}
+/* HEADER */
+
 
 .header__logo{
     cursor: pointer;

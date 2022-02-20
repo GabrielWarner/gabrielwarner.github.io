@@ -41,11 +41,8 @@ h2{
     
 }
 
-/* MAIN */
-.image_main{
-    height: 900px;
-  
-}
+/* HEADER */
+
 
 .header__logo{
     cursor: pointer;
@@ -69,56 +66,6 @@ h2{
 }
 
 
-/* SECTION PRE ORDER */
-
-.section__preorder{
-    border: solid;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px 10px;
-    
-}
-
-.section__preorder-link{
-    display: inline-block;
-}
-
-.section_preorder-list li{
-    display: inline-block;
-    padding: 15px;
-    font-size: 10px;
-}
-.section__preorder-h2{
-    float: left;
-}
-.section__preorder li a{
-    transition: all 0.3s ease 0s;
-}
-.section__preorder li a:hover{
-    color: #a90000;
-}
-
-/* SECTION ABOUT */
-
-
-.section__about{
-    border: solid;
-    margin: 10px 10px 10px 10px;
-    padding: 50px 50px 50px 50px;
-    
-}
-.section__about-img{
-    max-width: 10%;
-    float: left;
-    padding: 10px 10px 10px 10px;
-}
-
-.section__about-h2{
-    padding: 10px 10px 10px 10px;
-}
-.section__about-p{
-    padding: 10px 10px 10px 10px;
-}
 
 
 
