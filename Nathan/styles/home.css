@@ -106,7 +106,7 @@ h2{
 .footer__logo{
     max-width: 5%;
     margin-top: 20px;
-    
+    cursor: pointer;
 }
 
 .footer__social{

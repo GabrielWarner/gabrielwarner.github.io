@@ -56,7 +56,7 @@ h2{
 
 .header__logo{
     cursor: pointer;
-    max-width: 10%;
+    max-width: 60%;
     background-color: #eff4ff;
 }
 .nav__links{
@@ -87,6 +87,8 @@ h2{
 .cta button:hover{
     background-color: rgba(91, 148, 253, .8);;
 }
+
+
 
 
 
