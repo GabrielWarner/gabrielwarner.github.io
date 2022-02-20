@@ -21,7 +21,7 @@ body{
    
 }
 main{
-    padding-bottom: 300px;
+
     min-height: 100vh;
 }
 header{
@@ -30,7 +30,6 @@ header{
     align-items: center;
     padding: 30px 10%;
     background-color: #24252a;
-    position: absolute;
     width: 100%;
 }
 h2{
@@ -44,7 +43,6 @@ h2{
 /* MAIN */
 .image_main{
     height: 900px;
-  
 }
 
 .header__logo{
@@ -129,7 +127,6 @@ h2{
     bottom: 0;
     width: 100%;
    
-    
 }
 
 .footer__logo{

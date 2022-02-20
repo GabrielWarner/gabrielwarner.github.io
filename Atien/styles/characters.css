@@ -21,7 +21,7 @@ body{
    
 }
 main{
-    padding-bottom: 300px;
+
     min-height: 100vh;
 }
 header{
@@ -30,13 +30,13 @@ header{
     align-items: center;
     padding: 30px 10%;
     background-color: #24252a;
-    position: absolute;
+
     width: 100%;
 }
 h2{
     color: #a90000;
     font-family: "Nosifer";
-    
+
     font-size: 30px;
     
 }
