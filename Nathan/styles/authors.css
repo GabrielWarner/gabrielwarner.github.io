@@ -101,6 +101,8 @@ padding-bottom: 20px;
 
 .main__p{
 padding-bottom: 15px;
+padding-right: 150px;
+padding-left: 150px;
 }
 .main__label{
     
@@ -116,8 +118,8 @@ input{
     border-style: solid;
     border-color: #7fa7fd;
     border-radius: 5px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 35%;
+    margin-right: 35%;
     padding: 15px 15px;
 }
 
