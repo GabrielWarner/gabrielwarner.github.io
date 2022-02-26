@@ -46,8 +46,8 @@ h2{
 .header__logo{
     cursor: pointer;
     margin-right: auto;
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 10%;
+    max-height: 10%;
 }
 .nav__links{
     list-style: none;
@@ -62,6 +62,11 @@ h2{
 }
 .nav__links li a:hover{
     color: #a90000;
+}
+
+/*MAIN*/
+.img_main{
+    max-width: 100%;
 }
 
 
