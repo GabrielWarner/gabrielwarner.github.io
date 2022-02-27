@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Code+Pro&family=Source+Sans+Pro:wght@300&display=swap');
+@font-face {
+    font-family: shadow;
+    src: url(../Fonts/ShadowendPersonalUse-eZOZn.ttf);
+}
 /* General */
 *{
     box-sizing: border-box;
@@ -9,8 +15,8 @@
 }
 
 li, a, button, ul{
-    font-family: "Nosifer";
-    font-size: 16px;
+    font-family: shadow;
+    font-size: 30px;
     color: #edf0f1;
     text-decoration: none;
     
@@ -34,9 +40,9 @@ header{
 }
 h2{
     color: #a90000;
-    font-family: "Nosifer";
+    font-family: shadow;
     
-    font-size: 30px;
+    font-size: 40px;
     
 }
 
@@ -67,9 +73,12 @@ h2{
 /*MAIN*/
 .img_main{
     max-width: 100%;
+   
 }
 
+.main__section{
 
+}
 /* SECTION PRE ORDER */
 
 .section__preorder{

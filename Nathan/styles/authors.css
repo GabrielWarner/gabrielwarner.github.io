@@ -97,6 +97,7 @@ main{
 }
 .main__h1{
 padding-bottom: 20px;
+color: rgb(53, 121, 248);
 }
 
 .main__p{
@@ -123,6 +124,10 @@ input{
 
 .form__p{
 
+}
+
+.form__h2{
+    color: rgb(53, 121, 248);
 }
 
 .form__submit{
