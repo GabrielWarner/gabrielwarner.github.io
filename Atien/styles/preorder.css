@@ -14,7 +14,7 @@
 
 li, a, button, ul{
     font-family: shadow;
-    font-size: 30px;
+    font-size: px;
     color: #edf0f1;
     text-decoration: none;
     
@@ -67,6 +67,46 @@ h2{
 }
 .nav__links li a:hover{
     color: #a90000;
+}
+
+/* MAIN */
+h3{
+    color: white;
+    font-size: 27px;
+    font-family: 'Roboto';
+}
+.frame{
+    max-width: 80%;
+    box-shadow: 0px 0px 22px white;
+    position: relative;
+    left: 50px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.frameButton{
+    border: 1px solid white;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frameButton:hover{
+    background-color: rgb(155, 10, 10);
+}
+.frameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
 }
 
 
