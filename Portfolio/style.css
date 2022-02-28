@@ -250,7 +250,7 @@ header {
 }
 /*  My services section  */
 
-.my-services {
+.my-resume {
     background-color: var(--clr-dark);
     background-image: url(services-bg.jpg);
     background-size: cover;
@@ -274,24 +274,24 @@ header {
     opacity: 0.25;
 }
 
-.services {
+.resume {
     margin-bottom: 4em;
 }
 
-.service {
+.resume-item {
     max-width: 500px;
     margin: 0 auto;
 }
 
 @media (min-width: 800px) {
-    .services {
+    .resume {
         display: flex;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
     
-    .service + .service {
+    .resume-item + .resume-item {
         margin-left: 2em;
     }
 }
