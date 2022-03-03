@@ -31,7 +31,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 5px;
     background-color: #24252a;
     width: 100%;
 }
@@ -61,7 +61,7 @@ P{
 }
 .nav__links li{
     display:inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
 
 }
 .nav__links li a{
@@ -94,6 +94,8 @@ P{
     float: left;
 }
 
+/* SOCIAL LINKS */
+
 .footer__social{
     
     margin-bottom: 10px;
@@ -116,7 +118,7 @@ font-size: 20px;
 }
 .footer__links li{
     display:inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
 
 }
 
