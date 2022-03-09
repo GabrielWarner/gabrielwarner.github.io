@@ -33,7 +33,7 @@ body{
 }
 main{
     padding-bottom: 300px;
-    min-height: 100vh;
+    
 }
 header{
     display: flex;
@@ -91,8 +91,17 @@ P{
     background-color: rgba(91, 148, 253, .8);;
 }
 
+.social__img{
+display: inline;
+margin: auto;
+width: 5%; 
+
+}
 
 
+.social{
+    text-align: center;
+}
 
 
 
