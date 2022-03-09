@@ -32,7 +32,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 5px;
     background-color: #24252a;
 
     width: 100%;
@@ -62,7 +62,7 @@ h2{
 }
 .nav__links li{
     display:inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
 
 }
 .nav__links li a{
@@ -73,7 +73,17 @@ h2{
 }
 
 
+.column {
+    float:  left;
+    width:  25%;
+    padding:  5px;
+}
 
+main::after {
+    content: "";
+    clear:  both;
+    display: table;
+}
 
 
 /* FOOTER */
@@ -97,6 +107,8 @@ h2{
     float: left;
 }
 
+/* SOCIAL LINKS */
+
 .footer__social{
     
     margin-bottom: 10px;
@@ -119,7 +131,7 @@ font-size: 20px;
 }
 .footer__links li{
     display:inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
 
 }
 
