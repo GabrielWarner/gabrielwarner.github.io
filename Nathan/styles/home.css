@@ -31,11 +31,13 @@ body{
    position: relative;
    
 }
-main{
-    padding-bottom: 300px;
-    min-height: 100vh;
+
+/*main{
+    padding-bottom: 0px;
+    min-height: 100px;
 }
-header{
+
+*/header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,13 +45,62 @@ header{
     background-color: #eff4ff;
     width: 100%;
 }
+
+h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #4d84fc;
+}
+
 h2{
     color: #a7c3ff;
     font-family: "Montserrat";
-    
     font-size: 30px;
-    
 }
+
+#read-more {
+    text-align: center;
+    color: #4d84fc;
+}
+
+#our-events {
+    text-align: center;
+    margin-bottom: 1000px;
+}
+
+/* MAIN SECTION */
+
+.main__section-left, .main__section-right{
+    display: flex;
+    border: 2px solid black;
+    margin: 20px 20px;
+}
+
+/*.main__section-right{
+    display: flex;
+    border: 2px solid black;
+    margin: 20px 20px;
+}*/
+
+.section__img-left{
+    max-width: 15%;
+    background-color: #3b3b3b;
+}
+
+.section__img-right{
+    max-width: 18%;
+    background-color: #3b3b3b;
+}
+
+.section__p-left, .section__p-right {
+    text-align: center;
+    color: #4d84fc;
+}
+
+/*.section__p-right{
+    text-align: center;
+}
+*/
 
 /* HEADER */
 
@@ -59,17 +110,21 @@ h2{
     max-width: 10%;
     background-color: #eff4ff;
 }
+
 .nav__links{
     list-style: none;
 }
+
 .nav__links li{
     display:inline-block;
     padding: 0px 20px;
 
 }
+
 .nav__links li a{
     transition: all 0.3s ease 0s;
 }
+
 .nav__links li a:hover{
     color: #125dfd;
 }
@@ -90,9 +145,19 @@ h2{
 
 
 
+/* Store Buttons */
 
+.store {
+    width: 150px;
+    margin-top: 20px;
 
+}
 
+.app-store {
+    width: 130px;
+    padding-bottom: 13px;
+    margin-left: 15px;
+}
 
 
 /* FOOTER */
@@ -110,28 +175,26 @@ h2{
 }
 
 .footer__social{
-    
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .footer__social-item{
-
-display: inline-block;
-padding: 10px;
+    display: inline-block;
+    padding: 5px;
 }
 
 .footer__social-link{
-
-font-size: 20px;
+    font-size: 20px;
 }
 
 .footer__links{
     list-style: none;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .footer__links li{
     display:inline-block;
-    padding: 0px 20px;
+    padding: 0px 5px;
 
 }
 
@@ -139,6 +202,7 @@ font-size: 20px;
 .footer__links li a{
     transition: all 0.3s ease 0s;
 }
+
 .footer__social li a:hover,
 .footer__links li a:hover{
     color: #a90000;
